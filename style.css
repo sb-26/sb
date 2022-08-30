@@ -1,0 +1,161 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+  color: white;
+  background-color: black;
+  font-size: 1.1rem;
+}
+
+h1{
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+}
+header{
+  border-bottom: 2px solid white;
+}
+header ul{
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+}
+header ul li{
+  margin: 20px;
+  padding: 10px;
+}
+
+.intro{
+  flex-basis: 40%;
+}
+.intro img {
+  height: 30px;
+  width: 30px;
+}
+#about{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;    
+  justify-content: center;
+  margin: 100px 20px;
+}
+.pic{
+  padding: 20px;
+}
+.pic img{
+  height: 400px;
+  width: 400px;
+  border: 2px solid white;
+  border-radius: 20px;
+}
+#education{
+  margin: 100px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#education div{
+  height: auto;
+  width: 50%;
+  border: 2px solid white;
+  border-radius: 20px;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+}
+#project{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 100px;
+}
+
+#project div{
+  padding: 20px;
+}
+
+#project div img{
+  height: 200px;
+  width: 300px;
+  border: 2px solid white;
+  border-radius: 20px;
+}
+#project div img:hover{
+  opacity: 0.5;
+}
+
+#coding_profile {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 100px 20px;
+}
+
+
+#coding_profile div a{
+  height: 50px;
+  width: 100px;
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px;
+  transition: 0.1s;
+}
+
+#coding_profile div a:hover{
+  background-color: white;
+  color: black;
+}
+
+#skill {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;    
+  justify-content: center;
+  margin: 100px 20px;
+}
+
+#skill img{
+  height: 60px;
+  width: 60px;
+  padding: 20px;
+}
+
+#experience{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 80px 20px;
+}
+#experience div{
+  height: auto;
+    width: 50%;
+    border: 2px solid white;
+    border-radius: 20px;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+footer {
+  border-top: 2px solid white;
+}
+
+footer ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+}
+
+footer ul li {
+  margin: 20px;
+  padding: 10px;
+}
